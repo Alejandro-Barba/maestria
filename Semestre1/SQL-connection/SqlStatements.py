@@ -10,3 +10,4 @@ Direccion VARCHAR(255), Ciudad VARCHAR(255) NOT NULL, Telefono VARCHAR(15), Gene
 createTableCiudad = '''CREATE TABLE Ciudad(Ciudad VARCHAR(255) NOT NULL, Pais VARCHAR(100) NOT NULL, PRIMARY KEY (Ciudad))'''
 
 createTableRegion = '''CREATE TABLE Region(Pais VARCHAR(100) NOT NULL, Region VARCHAR(100) NOT NULL, PRIMARY KEY (Pais))'''
+

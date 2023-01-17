@@ -32,17 +32,21 @@ cursor = connection.cursor()
 connection.autocommit = True
 
 try:
+    #cursor.execute('exec sp_columns Region')
+    #cursor.execute(createDb)
     #cursor.execute(createTableRegion)
     #cursor.executemany("INSERT INTO Region VALUES(?,?)", Regiones)
     #cursor.execute("CREATE TABLE Ciudad(Ciudad VARCHAR(255) NOT NULL, Pais VARCHAR(100) NOT NULL, PRIMARY KEY (Ciudad))")
     print('Consulta SQL hecha satisfactoriamente')
 except Exception as ex:
     print(ex)
-regiones = pd.read_sql("SELECT * FROM Region", connection)
-df_regiones = pd.DataFrame(regiones)
+#info = pd.read_sql("exec sp_columns Region", connection)
+#regiones = pd.read_sql("SELECT * FROM Region", connection)
+#df_regiones = pd.DataFrame(regiones)
 
 #connection.commit()
 cursor.close()
 connection.close()
 
-print(df_regiones.head())
+#print(df_regiones.head())
+#print(info)

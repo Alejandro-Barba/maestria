@@ -1,0 +1,18 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "LakeFormationDataAccess",
+            "Effect": "Allow",
+            "Action": [
+                "lakeformation:GetDataAccess"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
+
+To use the AWS Lake Formation permissions model, principals must have AWS Identity and Access Management (IAM) permissions on the Lake Formation APIs.
+Create the following policy in IAM and attach it to every user who needs access to your data lake. Name the policy LakeFormationDataAccess.
+
+
