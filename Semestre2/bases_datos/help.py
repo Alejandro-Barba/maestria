@@ -23,3 +23,13 @@ def read_all_excel_files_and_print_head(folder_path):
         df = pd.read_excel(file)
         print(df.head())
         print(file)
+
+
+# function that read all xls files in a folder create a dataframe for each one and join the dataframes together, each xls file have columns in diferent order
+def read_all_excel_files_and_join_df(folder_path):
+    all_files = glob.glob(folder_path + "*.xlsx")
+        df_list = []
+    for file in all_files:
+        df = pd.read_excel(file)
+        df_list.append(df)
+        
