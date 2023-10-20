@@ -1,14 +1,25 @@
 {
-    "Pau": {
-    },
+    "Pau": {},
     "Francisco": {
         "activities": [
             {
                 "action": "login",
-                "timestamp": "19/10/2023 19:21:05"
+                "timestamp": "19/10/2023 19:38:03"
+            },
+            {
+                "action": "unsuccess_db_check",
+                "timestamp": "19/10/2023 19:38:07",
+                "data_accessed": "musica"
             }
         ]
     },
-    "Paulo": {
+    "Paulo": {},
+    "roberto": {
+        "activities": [
+            {
+                "action": "login",
+                "timestamp": "19/10/2023 19:28:10"
+            }
+        ]
     }
 }
