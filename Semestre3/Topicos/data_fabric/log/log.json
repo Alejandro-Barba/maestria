@@ -42,5 +42,208 @@
                 "data_accessed": "alto"
             }
         ]
+    },
+    "Pablo": {
+        "activities": [
+            {
+                "action": "unsucessful_login",
+                "timestamp": "23/11/2023 00:23:25"
+            },
+            {
+                "action": "unsucessful_login",
+                "timestamp": "23/11/2023 00:23:46"
+            },
+            {
+                "action": "login",
+                "timestamp": "23/11/2023 00:24:50"
+            },
+            {
+                "action": "login",
+                "timestamp": "23/11/2023 00:25:05"
+            },
+            {
+                "action": "login",
+                "timestamp": "23/11/2023 00:25:29"
+            },
+            {
+                "action": "unsuccess_db_check",
+                "timestamp": "23/11/2023 00:25:32",
+                "data_accessed": "pdv"
+            },
+            {
+                "action": "login",
+                "timestamp": "23/11/2023 00:25:51"
+            },
+            {
+                "action": "success_db_check",
+                "timestamp": "23/11/2023 00:25:53",
+                "data_accessed": "id_pdv"
+            },
+            {
+                "action": "login",
+                "timestamp": "23/11/2023 00:26:51"
+            },
+            {
+                "action": "success_db_check",
+                "timestamp": "23/11/2023 00:26:53",
+                "data_accessed": "id_pdv"
+            },
+            {
+                "action": "login",
+                "timestamp": "23/11/2023 00:29:15"
+            },
+            {
+                "action": "login",
+                "timestamp": "23/11/2023 00:29:45"
+            },
+            {
+                "action": "success_db_check",
+                "timestamp": "23/11/2023 00:29:50",
+                "data_accessed": "id_pdv"
+            },
+            {
+                "action": "login",
+                "timestamp": "23/11/2023 00:30:07"
+            },
+            {
+                "action": "login",
+                "timestamp": "23/11/2023 00:33:32"
+            },
+            {
+                "action": "login",
+                "timestamp": "2023 00:50:49"
+            },
+            {
+                "action": "login",
+                "timestamp": "2023 00:50:54"
+            },
+            {
+                "action": "login",
+                "timestamp": "2023 00:55:08"
+            },
+            {
+                "action": "unsuccess_db_check",
+                "timestamp": "2023 00:55:08",
+                "data_accessed": ""
+            },
+            {
+                "action": "login",
+                "timestamp": "2023 00:55:15"
+            },
+            {
+                "action": "success_db_check",
+                "timestamp": "2023 00:55:15",
+                "data_accessed": "id_pdv"
+            },
+            {
+                "action": "login",
+                "timestamp": "2023 17:59:56"
+            },
+            {
+                "action": "login",
+                "timestamp": "2023 18:00:02"
+            },
+            {
+                "action": "unsuccess_db_check",
+                "timestamp": "2023 18:00:02",
+                "data_accessed": ""
+            },
+            {
+                "action": "login",
+                "timestamp": "2023 18:00:06"
+            },
+            {
+                "action": "success_db_check",
+                "timestamp": "2023 18:00:06",
+                "data_accessed": "id_pdv"
+            },
+            {
+                "action": "login",
+                "timestamp": "2023 18:00:12"
+            },
+            {
+                "action": "login",
+                "timestamp": "2023 18:00:33"
+            },
+            {
+                "action": "unsuccess_db_check",
+                "timestamp": "2023 18:00:33",
+                "data_accessed": ""
+            },
+            {
+                "action": "login",
+                "timestamp": "2023 18:00:40"
+            },
+            {
+                "action": "success_db_check",
+                "timestamp": "2023 18:00:40",
+                "data_accessed": "id_pdv"
+            },
+            {
+                "action": "login",
+                "timestamp": "2023 18:00:51"
+            },
+            {
+                "action": "unsuccess_db_check",
+                "timestamp": "2023 18:00:51",
+                "data_accessed": ""
+            }
+        ]
+    },
+    "PAblo": {
+        "activities": [
+            {
+                "action": "unsucessful_login",
+                "timestamp": "23/11/2023 00:23:42"
+            },
+            {
+                "action": "unsucessful_login",
+                "timestamp": "23/11/2023 00:25:26"
+            },
+            {
+                "action": "unsucessful_login",
+                "timestamp": "23/11/2023 00:25:48"
+            },
+            {
+                "action": "unsucessful_login",
+                "timestamp": "23/11/2023 00:29:56"
+            }
+        ]
+    },
+    "": {
+        "activities": [
+            {
+                "action": "unsucessful_login",
+                "timestamp": "2023 00:50:29"
+            },
+            {
+                "action": "unsucessful_login",
+                "timestamp": "2023 00:50:43"
+            },
+            {
+                "action": "unsucessful_login",
+                "timestamp": "2023 17:59:32"
+            },
+            {
+                "action": "unsucessful_login",
+                "timestamp": "2023 17:59:49"
+            },
+            {
+                "action": "unsucessful_login",
+                "timestamp": "2023 18:01:51"
+            },
+            {
+                "action": "unsucessful_login",
+                "timestamp": "2023 18:02:05"
+            }
+        ]
+    },
+    "Alex": {
+        "activities": [
+            {
+                "action": "unsucessful_login",
+                "timestamp": "2023 18:00:45"
+            }
+        ]
     }
 }
